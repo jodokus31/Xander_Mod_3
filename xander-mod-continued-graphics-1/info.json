@@ -1,10 +1,10 @@
 {
-  "name": "xander-mod-graphics-1",
+  "name": "xander-mod-continued-graphics-1",
   "version": "0.7.0",
   "factorio_version": "1.1",
-  "title": "Xander Mod Graphics Pack 1",
-  "author": "Repofme1",
+  "title": "Xander Mod continued Graphics Pack 1",
+  "author": "jodokus31",
   "homepage": "https://forums.factorio.com/viewtopic.php?f=97&t=51868",
   "dependencies": ["base"],
-  "description": "Graphics pack 1 for Xander Mod."
+  "description": "Fork of Xander Mod by RepofMe1. \r\nGraphics pack 1 for Xander Mod continued"
 }

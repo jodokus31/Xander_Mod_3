@@ -34,26 +34,26 @@ xm_tile_froms = {
 xm_tile_tos = {
 	--gravel
 	{
-	"__xander-mod-graphics-0__/graphics/tile/gravel/sheet.png", "__xander-mod-graphics-0__/graphics/tile/gravel/sheet-hr.png",
-	"__xander-mod-graphics-0__/graphics/tile/gravel/water-transitions.png", "__xander-mod-graphics-0__/graphics/tile/gravel/water-transitions-hr.png",
-	"__xander-mod-graphics-0__/graphics/tile/gravel/between-transitions.png", "__xander-mod-graphics-0__/graphics/tile/gravel/between-transitions-hr.png", "__xander-mod-graphics-0__/graphics/tile/gravel/out-of-map-transitions.png", "__xander-mod-graphics-0__/graphics/tile/gravel/out-of-map-transitions-hr.png", "__xander-mod-graphics-0__/graphics/tile/gravel/out-of-map-water-transitions.png", "__xander-mod-graphics-0__/graphics/tile/gravel/out-of-map-water-transitions-hr.png"
+	"__xander-mod-continued-graphics-0__/graphics/tile/gravel/sheet.png", "__xander-mod-continued-graphics-0__/graphics/tile/gravel/sheet-hr.png",
+	"__xander-mod-continued-graphics-0__/graphics/tile/gravel/water-transitions.png", "__xander-mod-continued-graphics-0__/graphics/tile/gravel/water-transitions-hr.png",
+	"__xander-mod-continued-graphics-0__/graphics/tile/gravel/between-transitions.png", "__xander-mod-continued-graphics-0__/graphics/tile/gravel/between-transitions-hr.png", "__xander-mod-continued-graphics-0__/graphics/tile/gravel/out-of-map-transitions.png", "__xander-mod-continued-graphics-0__/graphics/tile/gravel/out-of-map-transitions-hr.png", "__xander-mod-continued-graphics-0__/graphics/tile/gravel/out-of-map-water-transitions.png", "__xander-mod-continued-graphics-0__/graphics/tile/gravel/out-of-map-water-transitions-hr.png"
 	},
 	
 	--brick-clay
 	{
-	"__xander-mod-graphics-0__/graphics/tile/brick-clay/sheet-1.png", "__xander-mod-graphics-0__/graphics/tile/brick-clay/sheet-1-hr.png",
-	"__xander-mod-graphics-0__/graphics/tile/brick-clay/sheet-2.png", "__xander-mod-graphics-0__/graphics/tile/brick-clay/sheet-2-hr.png",
-	"__xander-mod-graphics-0__/graphics/tile/brick-clay/sheet-4.png", "__xander-mod-graphics-0__/graphics/tile/brick-clay/sheet-4-hr.png",
-	"__xander-mod-graphics-0__/graphics/tile/brick-clay/inner-corner.png", "__xander-mod-graphics-0__/graphics/tile/brick-clay/inner-corner-hr.png",
-	"__xander-mod-graphics-0__/graphics/tile/brick-clay/outer-corner.png", "__xander-mod-graphics-0__/graphics/tile/brick-clay/outer-corner-hr.png",
-	"__xander-mod-graphics-0__/graphics/tile/brick-clay/side.png", "__xander-mod-graphics-0__/graphics/tile/brick-clay/side-hr.png",
-	"__xander-mod-graphics-0__/graphics/tile/brick-clay/u-transition.png", "__xander-mod-graphics-0__/graphics/tile/brick-clay/u-transition-hr.png",
-	"__xander-mod-graphics-0__/graphics/tile/brick-clay/o-transition.png", "__xander-mod-graphics-0__/graphics/tile/brick-clay/o-transition-hr.png",
-	"__xander-mod-graphics-0__/graphics/tile/brick-clay/transitions.png", "__xander-mod-graphics-0__/graphics/tile/brick-clay/transitions-hr.png",
-	"__xander-mod-graphics-0__/graphics/tile/brick-clay/between-transitions.png", "__xander-mod-graphics-0__/graphics/tile/brick-clay/between-transitions-hr.png",
-	"__xander-mod-graphics-0__/graphics/tile/brick-clay/out-of-map-transitions.png", "__xander-mod-graphics-0__/graphics/tile/brick-clay/out-of-map-transitions-hr.png",
-	"__xander-mod-graphics-0__/graphics/tile/brick-clay/out-of-map-transitions-b.png", "__xander-mod-graphics-0__/graphics/tile/brick-clay/out-of-map-transitions-b-hr.png",
-	"__xander-mod-graphics-0__/graphics/tile/brick-clay/out-of-map-water-transitions.png", "__xander-mod-graphics-0__/graphics/tile/brick-clay/out-of-map-water-transitions-hr.png"
+	"__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/sheet-1.png", "__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/sheet-1-hr.png",
+	"__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/sheet-2.png", "__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/sheet-2-hr.png",
+	"__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/sheet-4.png", "__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/sheet-4-hr.png",
+	"__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/inner-corner.png", "__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/inner-corner-hr.png",
+	"__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/outer-corner.png", "__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/outer-corner-hr.png",
+	"__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/side.png", "__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/side-hr.png",
+	"__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/u-transition.png", "__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/u-transition-hr.png",
+	"__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/o-transition.png", "__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/o-transition-hr.png",
+	"__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/transitions.png", "__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/transitions-hr.png",
+	"__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/between-transitions.png", "__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/between-transitions-hr.png",
+	"__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/out-of-map-transitions.png", "__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/out-of-map-transitions-hr.png",
+	"__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/out-of-map-transitions-b.png", "__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/out-of-map-transitions-b-hr.png",
+	"__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/out-of-map-water-transitions.png", "__xander-mod-continued-graphics-0__/graphics/tile/brick-clay/out-of-map-water-transitions-hr.png"
 	}
 	
 }

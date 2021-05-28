@@ -27,8 +27,8 @@ function xm_resource_particle_add(resource_name, i)
 	local temp = table.deepcopy(data.raw["optimized-particle"][xm_resource_parents[i]] or data.raw["optimized-particle"]["copper-ore-particle"])
 	temp.name = resource_name .. "-particle"
 	for j, _ in ipairs(temp.pictures) do
-		temp.pictures[j].filename = "__xander-mod-graphics-0__/graphics/entity/particle/" .. resource_name .. "/" .. j .. ".png"
-		temp.pictures[j].hr_version.filename = "__xander-mod-graphics-0__/graphics/entity/particle/" .. resource_name .. "/" .. j .. "-hr.png"
+		temp.pictures[j].filename = "__xander-mod-continued-graphics-0__/graphics/entity/particle/" .. resource_name .. "/" .. j .. ".png"
+		temp.pictures[j].hr_version.filename = "__xander-mod-continued-graphics-0__/graphics/entity/particle/" .. resource_name .. "/" .. j .. "-hr.png"
 	end
 	data:extend({temp})
 end
@@ -39,19 +39,19 @@ function xm_noise_layer_add(resource_name)
 end
 
 
---Adds a resource, using XM parameters from __xander-mod__/lists/resources.lua
+--Adds a resource, using XM parameters from __xander-mod-continued__/lists/resources.lua
 function xm_resource_add(resource_name, n)
 	local temp = table.deepcopy(data.raw.resource[xm_resource_parents[n] ])
 	local n_str = "" .. n
 	if n < 10 then n_str = "0" .. n end
 	--
 	temp.name = resource_name
-	temp.icon = "__xander-mod__/graphics/item/material/raw-resource/" .. xm_resource_names[n] .. ".png"
+	temp.icon = "__xander-mod-continued__/graphics/item/material/raw-resource/" .. xm_resource_names[n] .. ".png"
 	temp.pictures = {
-		{size = 64, filename = "__xander-mod__/graphics/item/material/raw-resource/" .. xm_resource_names[n] .. ".png", scale = 0.25, mipmap_count = 4},
-		{size = 64, filename = "__xander-mod__/graphics/item/material/raw-resource/" .. xm_resource_names[n] .. "-1.png", scale = 0.25, mipmap_count = 4},
-		{size = 64, filename = "__xander-mod__/graphics/item/material/raw-resource/" .. xm_resource_names[n] .. "-2.png", scale = 0.25, mipmap_count = 4},
-		{size = 64, filename = "__xander-mod__/graphics/item/material/raw-resource/" .. xm_resource_names[n] .. "-3.png", scale = 0.25, mipmap_count = 4}
+		{size = 64, filename = "__xander-mod-continued__/graphics/item/material/raw-resource/" .. xm_resource_names[n] .. ".png", scale = 0.25, mipmap_count = 4},
+		{size = 64, filename = "__xander-mod-continued__/graphics/item/material/raw-resource/" .. xm_resource_names[n] .. "-1.png", scale = 0.25, mipmap_count = 4},
+		{size = 64, filename = "__xander-mod-continued__/graphics/item/material/raw-resource/" .. xm_resource_names[n] .. "-2.png", scale = 0.25, mipmap_count = 4},
+		{size = 64, filename = "__xander-mod-continued__/graphics/item/material/raw-resource/" .. xm_resource_names[n] .. "-3.png", scale = 0.25, mipmap_count = 4}
 	}
 	temp.category = xm_resource_categories[n]
 	temp.order = n_str
@@ -96,10 +96,10 @@ function xm_resource_add(resource_name, n)
 	end
 	
 	--Graphics - depletion stages, map color
-	temp.stages.sheet.filename = "__xander-mod-graphics-0__/graphics/entity/resource/" .. resource_name .. ".png"
+	temp.stages.sheet.filename = "__xander-mod-continued-graphics-0__/graphics/entity/resource/" .. resource_name .. ".png"
 	if string.find(xm_resource_categories[n], "solid") then 
 		temp.stage_counts = {20000, 10000, 5000, 2000, 1000, 500, 200, 100}
-		temp.stages.sheet.hr_version.filename = "__xander-mod-graphics-0__/graphics/entity/resource/" .. resource_name .. "-hr.png"
+		temp.stages.sheet.hr_version.filename = "__xander-mod-continued-graphics-0__/graphics/entity/resource/" .. resource_name .. "-hr.png"
 	end
 	temp.stages_effect = nil
 	temp.effect_animation_period = nil

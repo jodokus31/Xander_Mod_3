@@ -10,7 +10,7 @@ xm_production_entities["energy"] = {
 	{
 		type = "boiler",
 		name = "boiler",
-		icon = "__xander-mod__/graphics/item/production/energy/boiler.png",
+		icon = "__xander-mod-continued__/graphics/item/production/energy/boiler.png",
 		graphics_from = {
 			"__base__/graphics/entity/boiler/boiler-E-idle.png",
 			"__base__/graphics/entity/boiler/boiler-N-idle.png",
@@ -22,14 +22,14 @@ xm_production_entities["energy"] = {
 			"__base__/graphics/entity/boiler/hr-boiler-W-idle.png"
 		},
 		graphics_to = {
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-E.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-N.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-S.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-W.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-E-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-N-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-S-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-W-hr.png"
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-E.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-N.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-S.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-W.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-E-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-N-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-S-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-W-hr.png"
 		}
 	},
 	--boiler 1
@@ -43,24 +43,24 @@ xm_production_entities["energy"] = {
 		energy_consumption = "3.6MW",
 		emissions_per_minute = 40,
 		graphics_from = {
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-E.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-N.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-S.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-W.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-E-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-N-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-S-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-W-hr.png"
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-E.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-N.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-S.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-W.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-E-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-N-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-S-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-W-hr.png"
 		},
 		graphics_to = {
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-1-E.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-1-N.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-1-S.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-1-W.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-1-E-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-1-N-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-1-S-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/boiler-1-W-hr.png"
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-1-E.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-1-N.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-1-S.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-1-W.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-1-E-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-1-N-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-1-S-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/boiler-1-W-hr.png"
 		}
 	},
 	--heat exchanger
@@ -98,10 +98,10 @@ xm_production_entities["energy"] = {
 			"__base__/graphics/entity/steam-turbine/hr-steam-turbine-V.png"
 		},
 		graphics_to = {
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/steam-turbine-1-H.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/steam-turbine-1-V.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/steam-turbine-1-H-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/production/energy/steam-turbine-1-V-hr.png"
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/steam-turbine-1-H.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/steam-turbine-1-V.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/steam-turbine-1-H-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/steam-turbine-1-V-hr.png"
 		}
 	},
 	--heat pipe
@@ -129,7 +129,7 @@ xm_production_entities["energy"] = {
 		max_health = 300,
 		production = "100kW",
 		graphics_from = {"__base__/graphics/entity/solar-panel/solar-panel.png", "__base__/graphics/entity/solar-panel/hr-solar-panel.png"},
-		graphics_to = {"__xander-mod-graphics-1__/graphics/entity/production/energy/solar-panel-2.png", "__xander-mod-graphics-1__/graphics/entity/production/energy/solar-panel-2-hr.png"}
+		graphics_to = {"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/solar-panel-2.png", "__xander-mod-continued-graphics-1__/graphics/entity/production/energy/solar-panel-2-hr.png"}
 	},
 	--accumulator
 	{
@@ -147,7 +147,7 @@ xm_production_entities["energy"] = {
 		input_flow_limit = "500kW",
 		output_flow_limit = "500kW",
 		graphics_from = {"__base__/graphics/entity/accumulator/accumulator.png", "__base__/graphics/entity/accumulator/hr-accumulator.png"},
-		graphics_to = {"__xander-mod-graphics-1__/graphics/entity/production/energy/accumulator-2.png", "__xander-mod-graphics-1__/graphics/entity/production/energy/accumulator-2-hr.png"}
+		graphics_to = {"__xander-mod-continued-graphics-1__/graphics/entity/production/energy/accumulator-2.png", "__xander-mod-continued-graphics-1__/graphics/entity/production/energy/accumulator-2-hr.png"}
 	},
 	--small-lamp
 	{
@@ -205,13 +205,13 @@ xm_production_entities["extraction-machine"] = {
 		energy_source = {type = "burner", fuel_categories = {"crude", "chemical"}, effectivity = 1, fuel_inventory_size = 1, emissions_per_minute = 3, smoke = data.raw["mining-drill"]["burner-mining-drill"].energy_source.smoke},
 		energy_usage = "50kW",
 		animation = {layers = { {
-			filename = "__xander-mod-graphics-1__/graphics/entity/production/extraction-machine/ore-processor-0.png",
+			filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/extraction-machine/ore-processor-0.png",
 			priority = "high",
 			width = 108,
 			height = 130,
 			frame_count = 1,
 			hr_version = {
-				filename = "__xander-mod-graphics-1__/graphics/entity/production/extraction-machine/ore-processor-0-hr.png",
+				filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/extraction-machine/ore-processor-0-hr.png",
 				priority = "high",
 				width = 216,
 				height = 260,
@@ -233,13 +233,13 @@ xm_production_entities["extraction-machine"] = {
 		emissions_per_minute = 2.5,
 		energy_usage = "70kW",
 		animation = {layers = { {
-			filename = "__xander-mod-graphics-1__/graphics/entity/production/extraction-machine/ore-processor-1.png",
+			filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/extraction-machine/ore-processor-1.png",
 			priority = "high",
 			width = 108,
 			height = 130,
 			frame_count = 1,
 			hr_version = {
-				filename = "__xander-mod-graphics-1__/graphics/entity/production/extraction-machine/ore-processor-1-hr.png",
+				filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/extraction-machine/ore-processor-1-hr.png",
 				priority = "high",
 				width = 216,
 				height = 260,
@@ -261,13 +261,13 @@ xm_production_entities["extraction-machine"] = {
 		emissions_per_minute = 2,
 		energy_usage = "120kW",
 		animation = {layers = { {
-			filename = "__xander-mod-graphics-1__/graphics/entity/production/extraction-machine/ore-processor-2.png",
+			filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/extraction-machine/ore-processor-2.png",
 			priority = "high",
 			width = 108,
 			height = 133,
 			frame_count = 1,
 			hr_version = {
-				filename = "__xander-mod-graphics-1__/graphics/entity/production/extraction-machine/ore-processor-2-hr.png",
+				filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/extraction-machine/ore-processor-2-hr.png",
 				priority = "high",
 				width = 216,
 				height = 266,
@@ -320,13 +320,13 @@ xm_production_entities["extraction-machine"] = {
 			}
 		},
 		animation = {layers = { {
-			filename = "__xander-mod-graphics-1__/graphics/entity/production/extraction-machine/waste-dump.png",
+			filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/extraction-machine/waste-dump.png",
 			priority = "high",
 			width = 384,
 			height = 384,
 			frame_count = 1,
 			hr_version = {
-				filename = "__xander-mod-graphics-1__/graphics/entity/production/extraction-machine/waste-dump-hr.png",
+				filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/extraction-machine/waste-dump-hr.png",
 				priority = "high",
 				width = 768,
 				height = 768,
@@ -350,7 +350,7 @@ xm_production_entities["smelting-machine"] = {
 		emissions_per_minute = 0.5,
 		next_upgrade = "xm-furnace-brick",
 		graphics_from = {"__base__/graphics/entity/stone-furnace/stone-furnace.png", "__base__/graphics/entity/stone-furnace/hr-stone-furnace.png"},
-		graphics_to = {"__xander-mod-graphics-1__/graphics/entity/production/smelting-machine/xm-furnace-stone.png", "__xander-mod-graphics-1__/graphics/entity/production/smelting-machine/xm-furnace-stone-hr.png"}
+		graphics_to = {"__xander-mod-continued-graphics-1__/graphics/entity/production/smelting-machine/xm-furnace-stone.png", "__xander-mod-continued-graphics-1__/graphics/entity/production/smelting-machine/xm-furnace-stone-hr.png"}
 	},
 	--xm furnace brick
 	{
@@ -366,7 +366,7 @@ xm_production_entities["smelting-machine"] = {
 		fuel_category = "chemical",
 		next_upgrade = "xm-furnace-steel",
 		graphics_from = {"__base__/graphics/entity/stone-furnace/stone-furnace.png", "__base__/graphics/entity/stone-furnace/hr-stone-furnace.png"},
-		graphics_to = {"__xander-mod-graphics-1__/graphics/entity/production/smelting-machine/xm-furnace-brick.png", "__xander-mod-graphics-1__/graphics/entity/production/smelting-machine/xm-furnace-brick-hr.png"}
+		graphics_to = {"__xander-mod-continued-graphics-1__/graphics/entity/production/smelting-machine/xm-furnace-brick.png", "__xander-mod-continued-graphics-1__/graphics/entity/production/smelting-machine/xm-furnace-brick-hr.png"}
 	},
 	--xm furnace steel
 	{
@@ -455,7 +455,7 @@ xm_production_entities["chemical-machine"] = {
 		energy_usage = "1.2MW",
 		fast_replaceable_group = "chemical-plant",
 		graphics_from = {"__base__/graphics/entity/oil-refinery/oil-refinery.png", "__base__/graphics/entity/oil-refinery/hr-oil-refinery.png"},
-		graphics_to = {"__xander-mod-graphics-1__/graphics/entity/production/chemical-machine/chem-reactor-3.png", "__xander-mod-graphics-1__/graphics/entity/production/chemical-machine/chem-reactor-3-hr.png"}
+		graphics_to = {"__xander-mod-continued-graphics-1__/graphics/entity/production/chemical-machine/chem-reactor-3.png", "__xander-mod-continued-graphics-1__/graphics/entity/production/chemical-machine/chem-reactor-3-hr.png"}
 	},
 	--electrolyzer 1
 	{
@@ -494,13 +494,13 @@ xm_production_entities["chemical-machine"] = {
 			}
 		},
 		animation = {layers = { {
-			filename = "__xander-mod-graphics-1__/graphics/entity/production/chemical-machine/electrolyzer-1.png",
+			filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/chemical-machine/electrolyzer-1.png",
 			priority = "high",
 			width = 113,
 			height = 113,
 			frame_count = 1,
 			hr_version = {
-				filename = "__xander-mod-graphics-1__/graphics/entity/production/chemical-machine/electrolyzer-1-hr.png",
+				filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/chemical-machine/electrolyzer-1-hr.png",
 				priority = "high",
 				width = 227,
 				height = 227,
@@ -552,13 +552,13 @@ xm_production_entities["chemical-machine"] = {
 			}
 		},
 		animation = {layers = { {
-			filename = "__xander-mod-graphics-1__/graphics/entity/production/chemical-machine/electrolyzer-2.png",
+			filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/chemical-machine/electrolyzer-2.png",
 			priority = "high",
 			width = 113,
 			height = 113,
 			frame_count = 1,
 			hr_version = {
-				filename = "__xander-mod-graphics-1__/graphics/entity/production/chemical-machine/electrolyzer-2-hr.png",
+				filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/chemical-machine/electrolyzer-2-hr.png",
 				priority = "high",
 				width = 227,
 				height = 227,
@@ -601,13 +601,13 @@ xm_production_entities["production-machine"] = {
 		energy_source = {type = "burner", fuel_categories = {"crude", "chemical"}, effectivity = 1, fuel_inventory_size = 1, emissions_per_minute = 1, smoke = data.raw["mining-drill"]["burner-mining-drill"].energy_source.smoke},
 		energy_usage = "60kW",
 		animation = {layers = { {
-			filename = "__xander-mod-graphics-1__/graphics/entity/production/production-machine/machine-tool-0.png",
+			filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/production-machine/machine-tool-0.png",
 			priority = "high",
 			width = 108,
 			height = 130,
 			frame_count = 1,
 			hr_version = {
-				filename = "__xander-mod-graphics-1__/graphics/entity/production/production-machine/machine-tool-0-hr.png",
+				filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/production-machine/machine-tool-0-hr.png",
 				priority = "high",
 				width = 216,
 				height = 260,
@@ -629,13 +629,13 @@ xm_production_entities["production-machine"] = {
 		emissions_per_minute = 1.5,
 		energy_usage = "95kW",
 		animation = {layers = { {
-			filename = "__xander-mod-graphics-1__/graphics/entity/production/production-machine/machine-tool-1.png",
+			filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/production-machine/machine-tool-1.png",
 			priority = "high",
 			width = 108,
 			height = 130,
 			frame_count = 1,
 			hr_version = {
-				filename = "__xander-mod-graphics-1__/graphics/entity/production/production-machine/machine-tool-1-hr.png",
+				filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/production-machine/machine-tool-1-hr.png",
 				priority = "high",
 				width = 216,
 				height = 260,
@@ -657,13 +657,13 @@ xm_production_entities["production-machine"] = {
 		emissions_per_minute = 2,
 		energy_usage = "160kW",
 		animation = {layers = { {
-			filename = "__xander-mod-graphics-1__/graphics/entity/production/production-machine/machine-tool-2.png",
+			filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/production-machine/machine-tool-2.png",
 			priority = "high",
 			width = 108,
 			height = 130,
 			frame_count = 1,
 			hr_version = {
-				filename = "__xander-mod-graphics-1__/graphics/entity/production/production-machine/machine-tool-2-hr.png",
+				filename = "__xander-mod-continued-graphics-1__/graphics/entity/production/production-machine/machine-tool-2-hr.png",
 				priority = "high",
 				width = 216,
 				height = 260,
@@ -686,7 +686,7 @@ xm_production_entities["production-machine"] = {
 		energy_source = {type = "burner", fuel_categories = {"crude", "chemical"}, effectivity = 1, fuel_inventory_size = 1, emissions_per_minute = 0.75, smoke = data.raw["mining-drill"]["burner-mining-drill"].energy_source.smoke},
 		energy_usage = "60kW",
 		graphics_from = {"__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png", "__base__/graphics/entity/assembling-machine-1/hr-assembling-machine-1.png"},
-		graphics_to = {"__xander-mod-graphics-1__/graphics/entity/production/production-machine/assembling-machine-0.png", "__xander-mod-graphics-1__/graphics/entity/production/production-machine/assembling-machine-0-hr.png"}
+		graphics_to = {"__xander-mod-continued-graphics-1__/graphics/entity/production/production-machine/assembling-machine-0.png", "__xander-mod-continued-graphics-1__/graphics/entity/production/production-machine/assembling-machine-0-hr.png"}
 	},
 	--assembling machine 1
 	{
@@ -715,7 +715,7 @@ xm_production_entities["production-machine"] = {
 		energy_usage = "40kW",
 		inputs = {"crude-science-pack", "automation-science-pack"},
 		graphics_from = {"__base__/graphics/entity/lab/lab.png", "__base__/graphics/entity/lab/hr-lab.png"},
-		graphics_to = {"__xander-mod-graphics-1__/graphics/entity/production/production-machine/lab-red.png", "__xander-mod-graphics-1__/graphics/entity/production/production-machine/lab-red-hr.png"}
+		graphics_to = {"__xander-mod-continued-graphics-1__/graphics/entity/production/production-machine/lab-red.png", "__xander-mod-continued-graphics-1__/graphics/entity/production/production-machine/lab-red-hr.png"}
 	},
 	--lab
 	{
@@ -741,7 +741,7 @@ xm_logistics_entities["belt"] = {
 		next_upgrade = "transport-belt",
 		speed = 0.015625,--1/64, half of the 1/32 for the base transport-belt
 		graphics_from = {"__base__/graphics/entity/transport-belt/transport-belt.png", "__base__/graphics/entity/transport-belt/hr-transport-belt.png"},
-		graphics_to = {"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-transport-belt.png", "__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-transport-belt-hr.png"}
+		graphics_to = {"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-transport-belt.png", "__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-transport-belt-hr.png"}
 	},
 	--standard belt
 	{
@@ -767,7 +767,7 @@ xm_logistics_entities["belt"] = {
 		next_upgrade = "express-transport-belt",
 		speed = 0.09375,--3/32, same as the base express-transport-belt
 		graphics_from = {"__base__/graphics/entity/express-transport-belt/express-transport-belt.png", "__base__/graphics/entity/express-transport-belt/hr-express-transport-belt.png"},
-		graphics_to = {"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-transport-belt.png", "__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-transport-belt-hr.png"}
+		graphics_to = {"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-transport-belt.png", "__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-transport-belt-hr.png"}
 	},
 	--express belt
 	{
@@ -793,10 +793,10 @@ xm_logistics_entities["belt"] = {
 			"__base__/graphics/entity/underground-belt/hr-underground-belt-structure.png"
 		},
 		graphics_to = {
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-transport-belt.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-transport-belt-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-underground-belt.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-underground-belt-hr.png"
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-transport-belt.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-transport-belt-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-underground-belt.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-underground-belt-hr.png"
 		}
 	},
 	--standard underground
@@ -829,10 +829,10 @@ xm_logistics_entities["belt"] = {
 			"__base__/graphics/entity/express-underground-belt/hr-express-underground-belt-structure.png"
 		},
 		graphics_to = {
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-transport-belt.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-transport-belt-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-underground-belt.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-underground-belt-hr.png"
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-transport-belt.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-transport-belt-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-underground-belt.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-underground-belt-hr.png"
 		}
 	},
 	--express underground
@@ -870,20 +870,20 @@ xm_logistics_entities["belt"] = {
 			"__base__/graphics/entity/splitter/hr-splitter-west-top_patch.png"
 		},
 		graphics_to = {
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-transport-belt.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-transport-belt-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-splitter-north.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-splitter-north-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-splitter-east-bottom.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-splitter-east-top.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-splitter-east-bottom-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-splitter-east-top-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-splitter-south.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-splitter-south-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-splitter-west-bottom.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-splitter-west-top.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-splitter-west-bottom-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/crude-splitter-west-top-hr.png"
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-transport-belt.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-transport-belt-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-splitter-north.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-splitter-north-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-splitter-east-bottom.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-splitter-east-top.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-splitter-east-bottom-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-splitter-east-top-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-splitter-south.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-splitter-south-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-splitter-west-bottom.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-splitter-west-top.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-splitter-west-bottom-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/crude-splitter-west-top-hr.png"
 		}
 	},
 	--standard splitter
@@ -926,20 +926,20 @@ xm_logistics_entities["belt"] = {
 			"__base__/graphics/entity/express-splitter/hr-express-splitter-west-top_patch.png"
 		},
 		graphics_to = {
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-transport-belt.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-transport-belt-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-north.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-north-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-east-bottom.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-east-top.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-east-bottom-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-east-top-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-south.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-south-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-west-bottom.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-west-top.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-west-bottom-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-west-top-hr.png"
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-transport-belt.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-transport-belt-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-north.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-north-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-east-bottom.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-east-top.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-east-bottom-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-east-top-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-south.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-south-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-west-bottom.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-west-top.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-west-bottom-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/belt/expedited-splitter-west-top-hr.png"
 		}
 	},
 	--express splitter
@@ -1002,14 +1002,14 @@ xm_logistics_entities["inserter"] = {
 			"__base__/graphics/entity/long-handed-inserter/hr-long-handed-inserter-platform.png"
 		},
 		graphics_to = {
-			"__xander-mod-graphics-1__/graphics/entity/logistics/inserter/long-fast-base.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/inserter/long-fast-base-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/inserter/long-fast-closed.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/inserter/long-fast-closed-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/inserter/long-fast-open.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/inserter/long-fast-open-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/inserter/long-fast-platform.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/inserter/long-fast-platform-hr.png"
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/inserter/long-fast-base.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/inserter/long-fast-base-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/inserter/long-fast-closed.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/inserter/long-fast-closed-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/inserter/long-fast-open.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/inserter/long-fast-open-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/inserter/long-fast-platform.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/inserter/long-fast-platform-hr.png"
 		}
 	},
 	--filter inserter
@@ -1066,14 +1066,14 @@ xm_logistics_entities["energy-pipe-distribution"] = {
 			"__base__/graphics/entity/pipe-to-ground/hr-pipe-to-ground-up.png"
 		},
 		graphics_to = {
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-down.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-left.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-right.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-up.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-down-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-left-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-right-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-up-hr.png"
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-down.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-left.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-right.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-up.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-down-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-left-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-right-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pipe-to-ground-2-up-hr.png"
 		}
 	},
 	--storage tank
@@ -1090,7 +1090,7 @@ xm_logistics_entities["energy-pipe-distribution"] = {
 		max_health = 600,
 		base_area = 400,
 		graphics_from = {"__base__/graphics/entity/storage-tank/storage-tank.png", "__base__/graphics/entity/storage-tank/hr-storage-tank.png"},
-		graphics_to = {"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/storage-tank-2.png", "__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/storage-tank-2-hr.png"}
+		graphics_to = {"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/storage-tank-2.png", "__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/storage-tank-2-hr.png"}
 	},
 	--pump
 	{
@@ -1117,14 +1117,14 @@ xm_logistics_entities["energy-pipe-distribution"] = {
 			"__base__/graphics/entity/pump/hr-pump-west.png"
 		},
 		graphics_to = {
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-north.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-east.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-south.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-west.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-north-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-east-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-south-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-west-hr.png"
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-north.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-east.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-south.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-west.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-north-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-east-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-south-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/pump-2-west-hr.png"
 		}
 	},
 	--small electric pole
@@ -1153,7 +1153,7 @@ xm_logistics_entities["energy-pipe-distribution"] = {
 		max_health = 300,
 		maximum_wire_distance = 60,
 		graphics_from = {"__base__/graphics/entity/big-electric-pole/big-electric-pole.png", "__base__/graphics/entity/big-electric-pole/hr-big-electric-pole.png"},
-		graphics_to = {"__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/big-electric-pole-2.png", "__xander-mod-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/big-electric-pole-2-hr.png"}
+		graphics_to = {"__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/big-electric-pole-2.png", "__xander-mod-continued-graphics-1__/graphics/entity/logistics/energy-pipe-distribution/big-electric-pole-2-hr.png"}
 	},
 	--substation
 	{
@@ -1196,7 +1196,7 @@ xm_logistics_entities["train-transport"] = {
 	{
 		type = "locomotive",
 		name = "locomotive",
-		icon = "__xander-mod__/graphics/item/logistics/train-transport/locomotive-0.png",
+		icon = "__xander-mod-continued__/graphics/item/logistics/train-transport/locomotive-0.png",
 		max_speed = 0.6,
 		max_power = "400kW",
 		braking_force = 8,
@@ -1320,18 +1320,18 @@ xm_combat_entities["defensive-structure"] = {
 			"__base__/graphics/entity/gun-turret/hr-gun-turret-shooting-4.png"
 		},
 		graphics_to = {
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-base.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-base-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-raising.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-raising-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-1.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-1-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-2.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-2-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-3.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-3-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-4.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-4-hr.png"
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-base.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-base-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-raising.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-raising-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-1.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-1-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-2.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-2-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-3.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-3-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-4.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/gun-turret-2-shooting-4-hr.png"
 		}
 	},
 	--[[flamethrower turret
@@ -1365,12 +1365,12 @@ xm_combat_entities["defensive-structure"] = {
 			"__base__/graphics/entity/laser-turret/hr-laser-turret-shooting.png"
 		},
 		graphics_to = {
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/laser-turret-2-base.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/laser-turret-2-base-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/laser-turret-2-raising.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/laser-turret-2-raising-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/laser-turret-2-shooting.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/laser-turret-2-shooting-hr.png"
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/laser-turret-2-base.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/laser-turret-2-base-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/laser-turret-2-raising.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/laser-turret-2-raising-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/laser-turret-2-shooting.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/laser-turret-2-shooting-hr.png"
 		}
 	},
 	--artillery turret
@@ -1421,26 +1421,26 @@ xm_combat_entities["defensive-structure"] = {
 			"__base__/graphics/entity/wall/hr-wall-vertical.png"
 		},
 		graphics_to = {
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-corner-left.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-corner-left-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-corner-right.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-corner-right-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-ending-left.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-ending-left-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-ending-right.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-ending-right-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-filling.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-filling-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-horizontal.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-horizontal-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-patch.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-patch-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-single.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-single-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-t.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-t-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-vertical.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-vertical-hr.png"
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-corner-left.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-corner-left-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-corner-right.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-corner-right-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-ending-left.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-ending-left-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-ending-right.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-ending-right-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-filling.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-filling-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-horizontal.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-horizontal-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-patch.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-patch-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-single.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-single-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-t.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-t-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-vertical.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/stone-wall/stone-wall-vertical-hr.png"
 		}
 	},
 	--gate
@@ -1480,20 +1480,20 @@ xm_combat_entities["defensive-structure"] = {
 			"__base__/graphics/entity/gate/hr-gate-wall-patch.png"
 		},
 		graphics_to = {
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-horizontal.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-horizontal-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-horizontal-left.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-horizontal-left-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-horizontal-right.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-horizontal-right-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-vertical-left.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-vertical-left-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-vertical-right.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-vertical-right-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-vertical.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-vertical-hr.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-wall-patch.png",
-			"__xander-mod-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-wall-patch-hr.png"
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-horizontal.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-horizontal-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-horizontal-left.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-horizontal-left-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-horizontal-right.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-horizontal-right-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-vertical-left.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-vertical-left-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-vertical-right.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-rail-vertical-right-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-vertical.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-vertical-hr.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-wall-patch.png",
+			"__xander-mod-continued-graphics-1__/graphics/entity/combat/defensive-structure/alloy-gate/alloy-gate-wall-patch-hr.png"
 		}
 	},
 	--radar

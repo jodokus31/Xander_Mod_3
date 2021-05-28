@@ -17,7 +17,7 @@ data.raw.technology["electric-energy-accumulators-2"].localised_name = {"technol
 data.raw.technology["electric-energy-accumulators-2"].localised_description = {"technology-description.electric-energy-accumulators-2"}
 data.raw.technology["mining-productivity-1"].prerequisites = {"washing1", "logistic-science-pack"}
 data.raw.technology["mining-productivity-2"].prerequisites = {"washing2", "mining-productivity-1", "chemical-science-pack"}
-data.raw.technology["advanced-material-processing"].icon = "__xander-mod__/graphics/technology/production/smelting-machine/advanced-material-processing.png"
+data.raw.technology["advanced-material-processing"].icon = "__xander-mod-continued__/graphics/technology/production/smelting-machine/advanced-material-processing.png"
 data.raw.technology["advanced-material-processing-2"].localised_name = {"technology-name.advanced-material-processing-2"}
 data.raw.technology["advanced-material-processing-2"].localised_description = {"technology-description.advanced-material-processing-2"}
 data.raw.technology["advanced-material-processing-3"].localised_name = {"technology-name.advanced-material-processing-3"}
@@ -28,7 +28,7 @@ data.raw.technology["research-speed-1"].prerequisites = {"electronics", "electri
 --==========  LOGISTICS  ==========
 
 data.raw.technology["toolbelt"].unit.count = 150
-data.raw.technology["logistics-3"].icon = "__xander-mod__/graphics/technology/logistics/belt/logistics-3.png"
+data.raw.technology["logistics-3"].icon = "__xander-mod-continued__/graphics/technology/logistics/belt/logistics-3.png"
 data.raw.technology["landfill"].prerequisites = {"washing1", "logistic-science-pack"}
 data.raw.technology["circuit-network"].unit.count = 150
 data.raw.technology["circuit-network"].unit.time = 30

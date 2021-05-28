@@ -12,7 +12,7 @@ function xm_item_group_impose(group_no, group_name)
 			name = group_name,
 			order = group_str,
 			inventory_order = group_str,
-			icon = "__xander-mod__/graphics/category/" .. group_name .. ".png",
+			icon = "__xander-mod-continued__/graphics/category/" .. group_name .. ".png",
 			icon_size = 64
 		}
 		})

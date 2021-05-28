@@ -21,7 +21,7 @@ function xm_simple_fluid_impose(subgroup_no, fluid_no, fluid_name, color_base, c
 			base_color = color_base,
 			flow_color = color_flow,
 			max_temperature = 100,
-			icon = "__xander-mod__/graphics/fluid/" .. xm_subgroups_to_impose[4][subgroup_no] .. "/" .. fluid_name .. ".png",
+			icon = "__xander-mod-continued__/graphics/fluid/" .. xm_subgroups_to_impose[4][subgroup_no] .. "/" .. fluid_name .. ".png",
 			icon_size = 64,
 			icon_mipmaps = 4,
 			pressure_to_speed_ratio = 0.4,

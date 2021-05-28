@@ -37,10 +37,10 @@ data.raw["assembling-machine"]["xm-furnace-electric"].fluid_boxes = assembler_1_
 data.raw["assembling-machine"]["xm-furnace-plasma"].fluid_boxes = assembler_1_fluid_boxes
 
 --chemical-machine
-data.raw["assembling-machine"]["chemical-plant"].icon = "__xander-mod__/graphics/item/production/chemical-machine/chemical-plant.png"
+data.raw["assembling-machine"]["chemical-plant"].icon = "__xander-mod-continued__/graphics/item/production/chemical-machine/chemical-plant.png"
 find_replace_graphics(data.raw["assembling-machine"]["chemical-plant"],
 	{"__base__/graphics/entity/chemical-plant/chemical-plant.png", "__base__/graphics/entity/chemical-plant/hr-chemical-plant.png"},
-	{"__xander-mod-graphics-1__/graphics/entity/production/chemical-machine/chemical-plant.png", "__xander-mod-graphics-1__/graphics/entity/production/chemical-machine/chemical-plant-hr.png"})
+	{"__xander-mod-continued-graphics-1__/graphics/entity/production/chemical-machine/chemical-plant.png", "__xander-mod-continued-graphics-1__/graphics/entity/production/chemical-machine/chemical-plant-hr.png"})
 data.raw["assembling-machine"]["chemical-plant"].module_specification.module_slots = 2
 data.raw["assembling-machine"]["chemical-plant"].energy_source.emissions_per_minute = 3
 data.raw["assembling-machine"]["chemical-plant"].energy_usage = "180kW"
@@ -84,12 +84,12 @@ end
 data.raw.inserter["burner-inserter"].energy_source.fuel_categories = {"crude", "chemical"}
 
 for i = 1, 8 do
-	data.raw.locomotive["locomotive"].pictures.layers[1].filenames[i] = "__xander-mod-graphics-1__/graphics/entity/logistics/transport/locomotive-" .. i .. ".png"
-	data.raw.locomotive["locomotive"].pictures.layers[1].hr_version.filenames[2 * i] = "__xander-mod-graphics-1__/graphics/entity/logistics/transport/locomotive-hr-" .. (2 * i) .. ".png"
-	data.raw.locomotive["locomotive"].pictures.layers[1].hr_version.filenames[(2 * i) - 1] = "__xander-mod-graphics-1__/graphics/entity/logistics/transport/locomotive-hr-" .. ((2 * i) - 1) .. ".png"
-	data.raw.locomotive["locomotive"].pictures.layers[2].filenames[i] = "__xander-mod-graphics-1__/graphics/entity/logistics/transport/locomotive-mask.png"
-	data.raw.locomotive["locomotive"].pictures.layers[2].hr_version.filenames[2 * i] = "__xander-mod-graphics-1__/graphics/entity/logistics/transport/locomotive-mask-hr.png"
-	data.raw.locomotive["locomotive"].pictures.layers[2].hr_version.filenames[(2 * i) - 1] = "__xander-mod-graphics-1__/graphics/entity/logistics/transport/locomotive-mask-hr.png"
+	data.raw.locomotive["locomotive"].pictures.layers[1].filenames[i] = "__xander-mod-continued-graphics-1__/graphics/entity/logistics/transport/locomotive-" .. i .. ".png"
+	data.raw.locomotive["locomotive"].pictures.layers[1].hr_version.filenames[2 * i] = "__xander-mod-continued-graphics-1__/graphics/entity/logistics/transport/locomotive-hr-" .. (2 * i) .. ".png"
+	data.raw.locomotive["locomotive"].pictures.layers[1].hr_version.filenames[(2 * i) - 1] = "__xander-mod-continued-graphics-1__/graphics/entity/logistics/transport/locomotive-hr-" .. ((2 * i) - 1) .. ".png"
+	data.raw.locomotive["locomotive"].pictures.layers[2].filenames[i] = "__xander-mod-continued-graphics-1__/graphics/entity/logistics/transport/locomotive-mask.png"
+	data.raw.locomotive["locomotive"].pictures.layers[2].hr_version.filenames[2 * i] = "__xander-mod-continued-graphics-1__/graphics/entity/logistics/transport/locomotive-mask-hr.png"
+	data.raw.locomotive["locomotive"].pictures.layers[2].hr_version.filenames[(2 * i) - 1] = "__xander-mod-continued-graphics-1__/graphics/entity/logistics/transport/locomotive-mask-hr.png"
 end
 
 

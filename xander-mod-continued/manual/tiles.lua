@@ -27,20 +27,20 @@ data:extend({
 		variants =
 		{
 			main = {
-				{picture = "__xander-mod-graphics-0__/graphics/tile/porcelain/sheet.png", count = 16, size = 1},
-				{picture = "__xander-mod-graphics-0__/graphics/tile/porcelain/sheet.png", count = 8, size = 2},
-				{picture = "__xander-mod-graphics-0__/graphics/tile/porcelain/sheet.png", count = 4, size = 4}
+				{picture = "__xander-mod-continued-graphics-0__/graphics/tile/porcelain/sheet.png", count = 16, size = 1},
+				{picture = "__xander-mod-continued-graphics-0__/graphics/tile/porcelain/sheet.png", count = 8, size = 2},
+				{picture = "__xander-mod-continued-graphics-0__/graphics/tile/porcelain/sheet.png", count = 4, size = 4}
 			},
-			side = {picture = "__xander-mod-graphics-0__/graphics/tile/porcelain/side.png", count = 1},
-			side_mask = {picture = "__xander-mod-graphics-0__/graphics/tile/porcelain/side-mask.png", count = 1},
-			inner_corner = {picture = "__xander-mod-graphics-0__/graphics/tile/porcelain/inner-corner.png", count = 1},
-			inner_corner_mask = {picture = "__xander-mod-graphics-0__/graphics/tile/porcelain/inner-corner-mask.png", count = 1},
-			outer_corner = {picture = "__xander-mod-graphics-0__/graphics/tile/porcelain/outer-corner.png", count = 1},
-			outer_corner_mask = {picture = "__xander-mod-graphics-0__/graphics/tile/porcelain/outer-corner-mask.png", count = 1},
-			u_transition = {picture = "__xander-mod-graphics-0__/graphics/tile/porcelain/u.png", count = 1},
-			u_transition_mask = {picture = "__xander-mod-graphics-0__/graphics/tile/porcelain/u-mask.png", count = 1},
-			o_transition = {picture = "__xander-mod-graphics-0__/graphics/tile/porcelain/o.png", count = 1},
-			o_transition_mask = {picture = "__xander-mod-graphics-0__/graphics/tile/porcelain/o-mask.png", count = 1}
+			side = {picture = "__xander-mod-continued-graphics-0__/graphics/tile/porcelain/side.png", count = 1},
+			side_mask = {picture = "__xander-mod-continued-graphics-0__/graphics/tile/porcelain/side-mask.png", count = 1},
+			inner_corner = {picture = "__xander-mod-continued-graphics-0__/graphics/tile/porcelain/inner-corner.png", count = 1},
+			inner_corner_mask = {picture = "__xander-mod-continued-graphics-0__/graphics/tile/porcelain/inner-corner-mask.png", count = 1},
+			outer_corner = {picture = "__xander-mod-continued-graphics-0__/graphics/tile/porcelain/outer-corner.png", count = 1},
+			outer_corner_mask = {picture = "__xander-mod-continued-graphics-0__/graphics/tile/porcelain/outer-corner-mask.png", count = 1},
+			u_transition = {picture = "__xander-mod-continued-graphics-0__/graphics/tile/porcelain/u.png", count = 1},
+			u_transition_mask = {picture = "__xander-mod-continued-graphics-0__/graphics/tile/porcelain/u-mask.png", count = 1},
+			o_transition = {picture = "__xander-mod-continued-graphics-0__/graphics/tile/porcelain/o.png", count = 1},
+			o_transition_mask = {picture = "__xander-mod-continued-graphics-0__/graphics/tile/porcelain/o-mask.png", count = 1}
 		},
 		
 		--transitions = {},
@@ -59,7 +59,7 @@ data:extend({
 --[[
 data.raw.tile["porcelain"].variants.main = {
 	{
-		picture = "__xander-mod-graphics-0__/graphics/tile/porcelain/sheet.png",
+		picture = "__xander-mod-continued-graphics-0__/graphics/tile/porcelain/sheet.png",
 		count = 1,
 		size = 1
 	}
